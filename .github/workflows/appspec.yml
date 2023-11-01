@@ -3,8 +3,9 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/app
+
 permissions:
-  -objects: /home/ec2-user/app
+  - object: /home/ec2-user/app
     owner: root
     group: root
 
